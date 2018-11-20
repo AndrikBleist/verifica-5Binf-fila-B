@@ -8,7 +8,7 @@ import javax.swing.*;
 public class Main extends JFrame {
 	
 	public Main() {
-		super("Formula 1 Passion");
+		super("Live The Company");
 		super.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
 		
 		// TODO Inserire la size in accordo con il wireframe (valori approssimati)
