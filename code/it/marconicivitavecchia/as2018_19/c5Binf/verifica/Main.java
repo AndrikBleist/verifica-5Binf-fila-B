@@ -12,13 +12,13 @@ public class Main extends JFrame {
 		super.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
 		
 		// TODO Inserire la size in accordo con il wireframe (valori approssimati)
-		super.setSize(640,480);
+		super.setSize(480,640);
 		
 		// TODO Usare StringBuilder per costruire la stringa HTML
 		StringBuilder sb= new StringBuilder();
 		// TODO Creare la stringa HTML per il wireframe
 		sb.append("<html>");
-		sb.append("<head><h1><b>Live the Company</h1></head>");
+		sb.append("<head><h1><b>Live the Company</h1></b></head>");
 		sb.append("<body>");
 		sb.append("<table>");
 		sb.append("<tr><th><h2><b>Evento</b></h2></th>");
